@@ -1,1 +1,9 @@
-# Species_interactions_mediate_SGD_effects_coral_physiology
+# Species interactions mediate the effects of submarine groundwater discharge on coral physiology  
+______________________________________________________________________________________________________________  
+**Authors:** Jamie R. Kerlin, Danielle M. Barnas, Nyssa J. Silbiger  
+**Journal:** 
+**Link:**  
+**Citation:**  
+**Funding:**  
+**Contents:**
+**Folders:**
