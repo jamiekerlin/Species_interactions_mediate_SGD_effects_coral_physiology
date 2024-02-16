@@ -186,8 +186,7 @@ biogeochem_table_overall <- biogeochem_table %>%
   kable_classic_2(full_width = F, html_font = "Cambria", "striped") %>%
   column_spec(c(5, 6, 7), color = "white", background = "#a45851") %>%
   column_spec(c(2, 3, 4), color = "white", background = "#5d74a5") %>%
-  add_header_above(c(" " = 1, "Low Range" = 3, "High Range" = 3, " " = 1))%>%
-  save_kable("test.png")
+  add_header_above(c(" " = 1, "Low Range" = 3, "High Range" = 3, " " = 1))
 
 
 biogeochem_table_overall 
@@ -461,8 +460,8 @@ initial_final_table <- df2 %>%
 initial_final_table
 
 
-initial_final_table %>%
-  kableExtra::save_kable(file = "table_initialfinal.html", self_contained = T)
+# initial_final_table %>%
+#   kableExtra::save_kable(file = "table_initialfinal.html", self_contained = T)
 
 test <- data_wide %>%
   filter(Response_measurement == "CCcm2")
@@ -2012,8 +2011,8 @@ table_modelselect  <- table_modelselect_data %>%
 
 table_modelselect
 
-table_modelselect %>%
-  kableExtra::save_kable(file = "table_select.html", self_contained = T)
+# table_modelselect %>%
+#   kableExtra::save_kable(file = "table_select.html", self_contained = T)
 
 
 ```
@@ -2064,8 +2063,8 @@ table_modelcontrol <- table_controlstats %>%
 
 table_modelcontrol
 
-table_modelcontrol %>%
-  kableExtra::save_kable(file = "table1.html", self_contained = T)
+# table_modelcontrol %>%
+#   kableExtra::save_kable(file = "table1.html", self_contained = T)
 
 ```
 
@@ -2122,8 +2121,8 @@ table_modelcomp <- table_compstats %>%
 table_modelcomp 
 
 
-  table_modelcomp %>%
-  kableExtra::save_kable(file = "table_comp.html", self_contained = T)
+  # table_modelcomp %>%
+  # kableExtra::save_kable(file = "table_comp.html", self_contained = T)
 ```
 
 random effects for comp models
@@ -2179,8 +2178,8 @@ table_r2_comp2  <- table_r2_comp %>%
 
 table_r2_comp2
 
-table_r2_comp2 %>%
-  kableExtra::save_kable(file = here("Output", "Models", "randomeffects.html"), self_contained = T)
+# table_r2_comp2 %>%
+#   kableExtra::save_kable(file = here("Output", "Models", "randomeffects.html"), self_contained = T)
 ```
 
 combined coeff plots 
